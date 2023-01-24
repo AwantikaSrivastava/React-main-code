@@ -4,13 +4,16 @@ import React, {Component} from "react"
 class Main extends Component {
     render() {
       return (
-      <div>
-        <h3>Reasons I'm excited to learn React</h3>
-        <ol>
-          <li>It's a popular library</li>
-          <li>I'm more likely to get a job as a developer</li>
-        </ol>
-      </div>
+     <main>
+      <h1 className="main--title"> Fun facts about React </h1>
+      <ul className="main--facts">
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100k stars on Github</li>
+        <li>Is maintained by facebook</li>
+        <li>Powers thousand of enterprise apps, including mobile apps</li>
+      </ul>
+     </main>
       )
     }
   }
